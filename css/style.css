@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -73,4 +74,13 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+body {
+  font-family: "Gluten", cursive;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }

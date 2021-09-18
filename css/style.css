@@ -78,9 +78,15 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   font-family: "Gluten", cursive;
+  font-size: 12px;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.header__title {
+  font-family: "Gluten", cursive;
+  font-size: 12px;
 }

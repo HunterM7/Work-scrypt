@@ -10,6 +10,7 @@
 
 body {
 	font-family: "Gluten", cursive;
+	font-size: 12px;
 }
 
 .container {
@@ -18,3 +19,15 @@ body {
 }
 
 // === /Common ===
+
+.header {
+	&__inner {
+	}
+
+	&__title {
+		font-family: "Gluten", cursive;
+		font-size: 12px;
+	}
+}
+.container {
+}

@@ -2,31 +2,43 @@
 
 // === Fonts ===
 
-@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap");
+
+@mixin font-gluten {
+	font-family: "Gluten", cursive;
+}
+
+@mixin font-source-sans-pro {
+	font-family: "Source Sans Pro", sans-serif;
+}
 
 // === Fonts ===
 
 // === Common ===
 
 body {
-	font-family: "Gluten", cursive;
-	font-size: 12px;
+	@include font-source-sans-pro;
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .container {
-	max-width: 1440px;
+	max-width: 1260px;
 	margin: 0 auto;
+	padding: 0 30px;
 }
 
 // === /Common ===
 
 .header {
 	&__inner {
+		padding-top: 30px;
 	}
 
 	&__title {
-		font-family: "Gluten", cursive;
-		font-size: 12px;
+		@include font-gluten;
+		font-size: 24px;
+		font-weight: 700;
 	}
 }
 .container {
